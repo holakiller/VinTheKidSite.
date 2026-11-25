@@ -1,0 +1,80 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#08090d;color:#f5f5f7;font-family:Inter,Arial,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}.red{color:#f0263d}.intro{position:fixed;inset:0;z-index:20;background:#07080b;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;animation:introOut .65s ease 3s forwards}.intro-grid,.screen-grid{position:absolute;inset:0;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(transparent,#000 30%,#000 75%,transparent)}.intro-kicker,.intro-bottom{font-size:10px;letter-spacing:.35em;color:#aaa;z-index:1}.intro-title{font:900 clamp(54px,10vw,120px)/.9 'Barlow Condensed',sans-serif;letter-spacing:.04em;z-index:1;text-shadow:0 0 35px #f0263d55}.intro-title span{color:#ed263c}.car-stage{width:min(760px,92vw);position:relative;z-index:1;margin:18px 0 12px;perspective:900px}.supercar{width:100%;filter:drop-shadow(0 15px 20px #e10d2a55);animation:carReveal 1.25s cubic-bezier(.2,.8,.2,1) .35s both}.speed-line{position:absolute;height:2px;background:linear-gradient(90deg,transparent,#ef263d,transparent);width:40%;top:55%;animation:speed 1.1s ease-in-out infinite}.line-one{left:-5%}.line-two{right:-5%;top:70%;animation-delay:.2s}.intro-progress{width:160px;height:2px;background:#333;margin-top:24px;z-index:1}.intro-progress span{display:block;height:100%;background:#ed263c;animation:progress 3s linear forwards}.site-header{height:82px;padding:0 7vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12;position:absolute;z-index:5;top:0;width:100%}.brand{display:flex;align-items:center;gap:12px;font:800 22px 'Barlow Condensed',sans-serif;letter-spacing:.08em}.brand-mark{display:grid;place-items:center;width:35px;height:35px;border:1px solid #ed263c;color:#ed263c;transform:skew(-8deg);font:900 22px 'Barlow Condensed'}.site-header nav{display:flex;align-items:center;gap:34px;font-size:11px;text-transform:uppercase;letter-spacing:.13em;color:#c7c7cc}.site-header nav a:hover,.text-link:hover{color:#ff4055}.nav-cta{border:1px solid #ed263c;padding:12px 18px}.menu-toggle{display:none;background:none;border:0;color:white;font-size:24px}.hero{min-height:760px;padding:180px 9vw 110px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 80% 55%,#401018 0,transparent 38%),linear-gradient(120deg,#090a0e,#111116 55%,#09090d)}.hero:after{content:"";position:absolute;right:-12%;top:10%;width:65vw;height:65vw;border:1px solid #ffffff12;border-radius:50%;box-shadow:0 0 0 55px #ffffff05,0 0 0 110px #ffffff03}.hero-bg-word{position:absolute;bottom:8px;left:4%;font:900 20vw/.8 'Barlow Condensed';color:#ffffff05;white-space:nowrap}.hero-copy{position:relative;z-index:2;max-width:590px}.eyebrow,.section-tag{font-size:10px;letter-spacing:.22em;color:#a6a6ad}.pulse-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#f12c42;box-shadow:0 0 12px #f12c42;margin-right:9px;animation:pulse 1.4s infinite}.hero h1,.about h2,.contact h2{font:900 clamp(62px,8vw,112px)/.86 'Barlow Condensed',sans-serif;letter-spacing:-.02em;margin:28px 0}.hero h1 span,.about h2 span,.contact h2 span{color:#f0263d}.hero-sub,.body-copy{color:#aaaab3;line-height:1.8;font-size:14px;max-width:460px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.button{display:inline-flex;align-items:center;justify-content:center;gap:22px;padding:16px 22px;font-size:10px;font-weight:800;letter-spacing:.12em;border:1px solid transparent;transition:.25s;cursor:pointer}.button span{font-size:16px}.button-red{background:#ed263c;color:white;box-shadow:0 8px 28px #ed263c30}.button-red:hover{background:#ff4055;transform:translateY(-3px)}.button-outline{border-color:#555;color:#fff}.button-outline:hover{border-color:#ed263c;color:#ff4055}.hero-meta{display:flex;gap:13px;align-items:center;margin-top:52px;color:#777;font-size:8px;letter-spacing:.16em}.hero-meta i{width:3px;height:3px;background:#ed263c;border-radius:50%}.hero-portrait-wrap{position:absolute;right:9%;top:19%;width:min(39vw,490px);aspect-ratio:1;z-index:1}.portrait-ring{position:absolute;inset:-16px;border:1px solid #ed263c;border-radius:50%;box-shadow:0 0 45px #ed263c22,inset 0 0 35px #ed263c10}.hero-portrait{width:100%;height:100%;object-fit:cover;border-radius:50%;filter:grayscale(1);border:7px solid #f3f3f3;box-shadow:0 25px 70px #000}.portrait-label{position:absolute;bottom:5%;right:-8%;background:#ed263c;padding:13px 19px;display:flex;flex-direction:column;transform:skew(-8deg)}.portrait-label b{font:900 25px 'Barlow Condensed'}.portrait-label span{font-size:8px;letter-spacing:.16em}.hero-scroll{position:absolute;bottom:28px;left:9vw;color:#777;font-size:9px;letter-spacing:.2em}.hero-scroll span{color:#ed263c;margin-left:10px;font-size:17px}.ticker{overflow:hidden;background:#ed263c;color:#fff;padding:15px 0;font:800 15px 'Barlow Condensed';letter-spacing:.17em;white-space:nowrap}.ticker div{min-width:max-content;animation:ticker 24s linear infinite}.ticker b{padding:0 30px;color:#111}.section{padding:110px 9vw}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:10%;align-items:end;margin-top:25px}.about h2,.contact h2{font-size:clamp(58px,7vw,92px);margin:0}.text-link{display:inline-block;margin-top:20px;font-size:10px;letter-spacing:.18em;font-weight:800;border-bottom:1px solid #ed263c;padding-bottom:8px}.text-link span{color:#ed263c;margin-left:18px}.platforms{background:#101116}.platform-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:32px}.platform-card{min-height:360px;padding:35px;position:relative;overflow:hidden;background:linear-gradient(135deg,#201116,#111217);border:1px solid #ffffff12}.tiktok-card{background:linear-gradient(135deg,#111a20,#111217)}.card-top{display:flex;justify-content:space-between;align-items:center}.platform-icon{display:grid;place-items:center;width:45px;height:45px;background:#ed263c;color:white;border-radius:50%;font-size:19px}.tiktok-icon{background:#1b1b22;border:1px solid #55e6dc;color:#55e6dc}.card-number{font:700 13px 'Barlow Condensed';color:#777}.platform-type{font-size:9px;letter-spacing:.2em;color:#999;margin-top:32px}.platform-card h2{font:900 clamp(50px,6vw,78px)/.9 'Barlow Condensed';margin:12px 0 15px}.platform-card h2 span{color:#ed263c}.platform-card p:not(.platform-type){font-size:12px;line-height:1.7;color:#aaa;max-width:360px}.button-light{background:#f3f3f3;color:#111;margin-top:18px}.button-light:hover{background:#ed263c;color:white;transform:translateY(-3px)}.card-watermark{position:absolute;right:22px;bottom:-50px;font:900 190px 'Barlow Condensed';color:#ffffff06}.live-section{padding-top:80px;padding-bottom:35px}.live-panel{display:grid;grid-template-columns:1fr 1fr;min-height:390px;background:#111217;border:1px solid #ffffff12}.live-copy{padding:45px}.live-label{font-size:10px;letter-spacing:.2em;color:#ff5264;margin-top:35px}.live-copy h2{font:900 clamp(55px,6vw,80px)/.85 'Barlow Condensed';margin:15px 0}.live-copy h2 span{color:#ed263c}.live-copy>p:not(.live-label){font-size:12px;color:#aaa;line-height:1.7;max-width:330px}.live-screen{margin:25px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(circle at center,#351019,#090a0e 65%);border:1px solid #ffffff1c}.live-screen>span,.live-screen small{z-index:1;letter-spacing:.2em;font:800 19px 'Barlow Condensed'}.live-screen small{font:500 8px Inter;color:#999;margin-top:12px}.play-button{z-index:1;width:65px;height:65px;border-radius:50%;display:grid;place-items:center;background:#ed263c;box-shadow:0 0 35px #ed263c77;margin-bottom:20px;padding-left:4px}.live-note{font-size:10px;color:#777;margin-top:14px}.contact{background:#101116}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12%;margin-top:30px}.contact form{display:flex;flex-direction:column;gap:10px}.contact label{font-size:9px;letter-spacing:.17em;color:#aaa;margin-top:10px}.contact input,.contact textarea{width:100%;background:#090a0e;border:1px solid #303139;color:#fff;padding:15px;font:12px Inter;outline:none;resize:vertical}.contact input:focus,.contact textarea:focus{border-color:#ed263c}.send-button{align-self:flex-start;margin-top:10px}.form-hint{font-size:10px;color:#777}.email-line{margin-top:28px;font-size:12px;color:#ed4053}.email-line a{color:#ddd}footer{padding:30px 9vw;display:flex;align-items:center;justify-content:space-between;border-top:1px solid #ffffff12;color:#888;font-size:9px;letter-spacing:.15em}footer .brand{color:#fff}.menu-toggle{cursor:pointer}@keyframes introOut{to{opacity:0;visibility:hidden;pointer-events:none}}@keyframes carReveal{0%{opacity:0;transform:translateX(-90px) rotateY(28deg) scale(.78)}65%{opacity:1;transform:translateX(10px) rotateY(-7deg) scale(1.04)}100%{opacity:1;transform:translateX(0) rotateY(0) scale(1)}}@keyframes progress{to{width:100%}}@keyframes speed{0%,100%{opacity:0;transform:translateX(-25px)}50%{opacity:1;transform:translateX(25px)}}@keyframes pulse{50%{opacity:.35;box-shadow:0 0 2px #f12c42}}@keyframes ticker{to{transform:translateX(-50%)}}@media(max-width:900px){.hero{min-height:900px;align-items:flex-start;padding-top:160px}.hero-portrait-wrap{top:auto;bottom:95px;right:12%;width:min(58vw,390px)}.hero-copy{max-width:100%}.hero-meta{margin-top:30px}.about-grid,.contact-grid{gap:35px}.section{padding:85px 7vw}.site-header{padding:0 7vw}}@media(max-width:650px){.site-header{height:68px}.menu-toggle{display:block}.site-header nav{display:none;position:absolute;top:68px;left:0;right:0;background:#101116;padding:22px 7vw;flex-direction:column;align-items:flex-start;gap:22px;border-bottom:1px solid #ffffff20}.site-header nav.open{display:flex}.hero{min-height:850px;padding:135px 7vw 90px}.hero h1{font-size:64px}.hero-portrait-wrap{width:65vw;right:12%;bottom:95px}.hero-meta{font-size:7px;gap:8px;flex-wrap:wrap}.about-grid,.platform-grid,.live-panel,.contact-grid{grid-template-columns:1fr}.about-grid{gap:25px}.platform-card{min-height:330px;padding:27px}.live-copy{padding:30px}.live-screen{min-height:250px;margin:0 20px 20px}.section{padding:75px 7vw}footer{padding:25px 7vw;gap:15px;flex-wrap:wrap}footer>span{display:none}.intro-title{font-size:64px}.car-stage{margin:25px 0}.hero-scroll{left:7vw}.contact h2{font-size:68px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+
+
+/* Photorealistic Ferrari creator intro */
+.intro-ferrari{
+  background:
+    radial-gradient(ellipse at 50% 72%,#5b0714 0,transparent 48%),
+    #030306;
+  display:grid;
+  place-items:center;
+  isolation:isolate;
+  animation:introFerrariOut .8s cubic-bezier(.7,0,.2,1) 3.45s forwards;
+}
+.intro-ferrari .intro-art{
+  position:relative;
+  z-index:1;
+  display:block;
+  width:min(100vw,100vh);
+  height:min(100vw,100vh);
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  filter:drop-shadow(0 20px 55px #ed173b30);
+  animation:ferrariPosterReveal 3.6s cubic-bezier(.16,.75,.25,1) both;
+  transform-origin:50% 68%;
+}
+.intro-aura{
+  position:absolute;
+  width:min(78vw,78vh);
+  aspect-ratio:1;
+  border-radius:50%;
+  background:#e20c2522;
+  filter:blur(75px);
+  animation:auraPulse 2.4s ease-in-out infinite alternate;
+}
+.intro-scan{
+  position:absolute;
+  z-index:2;
+  left:0;right:0;top:-20%;
+  height:2px;
+  background:linear-gradient(90deg,transparent,#ff5267,transparent);
+  box-shadow:0 0 18px #ff1e42;
+  opacity:.55;
+  animation:scanDown 2.6s ease-in-out .2s both;
+  pointer-events:none;
+}
+.skip-intro{
+  position:absolute;
+  z-index:4;
+  right:clamp(16px,4vw,48px);
+  bottom:clamp(16px,4vh,38px);
+  border:1px solid #ffffff66;
+  border-radius:30px;
+  background:#08090dcc;
+  color:#fff;
+  padding:12px 18px;
+  font:700 10px Inter,sans-serif;
+  letter-spacing:.15em;
+  cursor:pointer;
+  transition:.2s;
+}
+.skip-intro:hover{background:#ed263c;border-color:#ed263c;transform:translateY(-2px)}
+.skip-intro span{color:#ff5267;margin-left:10px}
+.intro-ferrari.finished{display:none}
+@keyframes ferrariPosterReveal{
+  0%{opacity:0;transform:perspective(1200px) scale(.82) rotateX(7deg) translateY(35px);filter:blur(8px) brightness(.45)}
+  35%{opacity:1;filter:blur(0) brightness(.85)}
+  100%{opacity:1;transform:perspective(1200px) scale(1.055) rotateX(0) translateY(0);filter:blur(0) brightness(1)}
+}
+@keyframes introFerrariOut{to{opacity:0;visibility:hidden;pointer-events:none}}
+@keyframes auraPulse{from{transform:scale(.85);opacity:.45}to{transform:scale(1.15);opacity:.9}}
+@keyframes scanDown{0%{top:-10%;opacity:0}15%{opacity:.65}100%{top:110%;opacity:0}}
+@media(max-aspect-ratio:4/5){
+  .intro-ferrari .intro-art{width:100vw;height:100vw;max-height:80vh}
+  .skip-intro{bottom:12px;right:12px}
+}
+@media(prefers-reduced-motion:reduce){
+  .intro-ferrari{animation:introFerrariOut .3s ease 1s forwards}
+  .intro-ferrari .intro-art,.intro-aura,.intro-scan{animation:none}
+}
